@@ -1,0 +1,20 @@
+{
+  "name": "nnu-sky-gpu-skills",
+  "interface": {
+    "displayName": "Nnu Sky Gpu Skills"
+  },
+  "plugins": [
+    {
+      "name": "gpu-training-infra",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gpu-training-infra"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

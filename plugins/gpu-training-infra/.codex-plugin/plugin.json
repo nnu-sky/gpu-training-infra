@@ -1,0 +1,33 @@
+{
+  "name": "gpu-training-infra",
+  "version": "0.1.0",
+  "description": "诊断和优化 PyTorch、CUDA 与多 GPU 训练的吞吐、显存、数据加载和扩展效率。",
+  "author": {
+    "name": "nnu-sky",
+    "url": "https://github.com/nnu-sky"
+  },
+  "homepage": "https://github.com/nnu-sky/gpu-training-infra",
+  "repository": "https://github.com/nnu-sky/gpu-training-infra",
+  "license": "MIT",
+  "keywords": [
+    "pytorch",
+    "cuda",
+    "gpu",
+    "training",
+    "performance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GPU 训练性能优化",
+    "shortDescription": "定位训练瓶颈并优化吞吐、显存、数据管线、批量和多卡扩展",
+    "longDescription": "为 PyTorch 训练建立可比较基线，按证据定位数据、计算、编译、显存或通信瓶颈，并验证少量具有明确机制依据的工程优化组合。",
+    "developerName": "nnu-sky",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "建立训练性能基线，定位主要瓶颈，并给出经过测量的最推荐工程优化组合。"
+  }
+}
