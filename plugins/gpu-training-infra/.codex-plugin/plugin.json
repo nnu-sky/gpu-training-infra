@@ -1,7 +1,7 @@
 {
   "name": "gpu-training-infra",
   "version": "0.1.0",
-  "description": "诊断和优化 PyTorch、CUDA 与多 GPU 训练的吞吐、显存、数据加载和扩展效率。",
+  "description": "让 Codex 读懂训练工程、定位主要瓶颈、验证优化，并交付适合当前项目的 GPU 训练推荐配置。",
   "author": {
     "name": "nnu-sky",
     "url": "https://github.com/nnu-sky"
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "GPU 训练性能优化",
-    "shortDescription": "定位训练瓶颈并优化吞吐、显存、数据管线、批量和多卡扩展",
-    "longDescription": "为 PyTorch 训练建立可比较基线，按证据定位数据、计算、编译、显存或通信瓶颈，并验证少量具有明确机制依据的工程优化组合。",
+    "shortDescription": "找到训练中最值得优化的环节，并给出经过测量的推荐配置",
+    "longDescription": "从项目代码和运行现象出发，定位数据、计算、编译、显存或通信瓶颈，验证少量高价值工程优化，并交付可直接采用的配置与前后对比。",
     "developerName": "nnu-sky",
     "category": "Developer Tools",
     "capabilities": [
@@ -28,6 +28,6 @@
       "Read",
       "Write"
     ],
-    "defaultPrompt": "建立训练性能基线，定位主要瓶颈，并给出经过测量的最推荐工程优化组合。"
+    "defaultPrompt": "检查这个训练项目，找出最值得优化的地方，完成短基准，并给出一套经过测量的推荐配置。"
   }
 }
