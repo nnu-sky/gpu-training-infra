@@ -1,4 +1,4 @@
 interface:
   display_name: "GPU 训练性能优化"
-  short_description: "诊断并优化训练吞吐、显存、数据管线、批量拐点、完整墙钟与成本收益"
-  default_prompt: "使用 $gpu-training-infra 建立性能基线，比较保持当前批量与吞吐拐点的成本收益。"
+  short_description: "优化完整训练流程，并深入项目特有计算、数值与实现路径"
+  default_prompt: "使用 $gpu-training-infra 完成基础检查和有证据的常规改动，再从训练全链与项目特有路径探索可接受的工程优化和近似，给出简短前后对比。"

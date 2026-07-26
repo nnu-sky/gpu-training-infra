@@ -1,7 +1,7 @@
 {
   "name": "gpu-training-infra",
   "version": "0.1.0",
-  "description": "让 Codex 读懂训练工程、定位主要瓶颈、验证优化，并交付适合当前项目的 GPU 训练推荐配置。",
+  "description": "让 Codex 先完成训练流程的常规工程优化，再深入项目特有路径并验证可接受的改进。",
   "author": {
     "name": "nnu-sky",
     "url": "https://github.com/nnu-sky"
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "GPU 训练性能优化",
-    "shortDescription": "找到训练中最值得优化的环节，并给出经过测量的推荐配置",
-    "longDescription": "从项目代码和运行现象出发，定位数据、计算、编译、显存或通信瓶颈，验证少量高价值工程优化，并交付可直接采用的配置与前后对比。",
+    "shortDescription": "优化训练全流程并继续探索项目特有路径",
+    "longDescription": "从训练入口和常规工程检查开始，逐步处理数据、计算、显存、编译与通信，再探索项目特有实现、数值表达和可接受近似。",
     "developerName": "nnu-sky",
     "category": "Developer Tools",
     "capabilities": [
@@ -28,6 +28,6 @@
       "Read",
       "Write"
     ],
-    "defaultPrompt": "检查这个训练项目，找出最值得优化的地方，完成短基准，并给出一套经过测量的推荐配置。"
+    "defaultPrompt": "检查并优化这个训练项目：先完成常规训练工程优化，再探索项目特有路径，并给出简短前后对比。"
   }
 }
