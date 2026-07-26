@@ -1,4 +1,4 @@
 interface:
   display_name: "GPU 训练性能优化"
-  short_description: "从端到端时间图定位首要瓶颈并验证优化收益"
-  default_prompt: "使用 $gpu-training-infra 对这个训练项目做短时性能分析，定位首要热点并验证一个高价值优化。"
+  short_description: "先做训练全链路基础检查，再验证全局与项目专项性能优化"
+  default_prompt: "使用 $gpu-training-infra 先检查整个训练执行链和低风险通用改进，再分析项目特有路径，并按语义风险选择组件或短步验证。"
