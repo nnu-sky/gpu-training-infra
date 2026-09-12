@@ -1,3 +1,5 @@
+> 统一维护入口：[nnu-sky/skills](https://github.com/nnu-sky/skills)。本仓库保留兼容安装包；新开发以统一仓库为准。
+
 # GPU Training Infra
 
 让 Codex 先完成训练流程的常规工程优化，再继续寻找当前项目独有的计算、状态与数值优化机会。

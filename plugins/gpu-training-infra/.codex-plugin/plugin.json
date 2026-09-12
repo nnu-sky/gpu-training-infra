@@ -1,13 +1,13 @@
 {
   "name": "gpu-training-infra",
-  "version": "0.1.0",
-  "description": "让 Codex 先完成训练流程的常规工程优化，再深入项目特有路径并验证可接受的改进。",
+  "version": "0.1.1",
+  "description": "优化模型及训练代码的工程实现与执行效率",
   "author": {
     "name": "nnu-sky",
     "url": "https://github.com/nnu-sky"
   },
-  "homepage": "https://github.com/nnu-sky/gpu-training-infra",
-  "repository": "https://github.com/nnu-sky/gpu-training-infra",
+  "homepage": "https://github.com/nnu-sky/skills",
+  "repository": "https://github.com/nnu-sky/skills",
   "license": "MIT",
   "keywords": [
     "pytorch",
@@ -18,9 +18,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "GPU 训练性能优化",
-    "shortDescription": "优化训练全流程并继续探索项目特有路径",
-    "longDescription": "从训练入口和常规工程检查开始，逐步处理数据、计算、显存、编译与通信，再探索项目特有实现、数值表达和可接受近似。",
+    "displayName": "模型工程优化",
+    "shortDescription": "优化模型及训练代码的工程实现与执行效率",
+    "longDescription": "仅在明确要求模型工程优化时使用，按实测结果改进训练代码。",
     "developerName": "nnu-sky",
     "category": "Developer Tools",
     "capabilities": [
@@ -28,6 +28,6 @@
       "Read",
       "Write"
     ],
-    "defaultPrompt": "检查并优化这个训练项目：先完成常规训练工程优化，再探索项目特有路径，并给出简短前后对比。"
+    "defaultPrompt": "使用 $gpu-training-infra 对模型及训练代码进行工程优化。"
   }
 }
